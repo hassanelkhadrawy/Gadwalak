@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+
+
+        <item
+            android:id="@+id/internet_cource"
+            android:icon="@drawable/ic_youtube_searched_for_black_24dp"
+            android:title="@string/InternetCourse" />
+
+        <item
+            android:id="@+id/center_course"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:title="@string/CenterCourse" />
+
+    </group>
+
+    <item android:title="">
+
+        <menu>
+
+
+            <item
+                android:id="@+id/about_us"
+                android:icon="@drawable/ic_error_outline_black_24dp"
+                android:title="@string/AboutUs" />
+
+            <item
+                android:id="@+id/help"
+                android:icon="@drawable/ic_help_black_24dp"
+                android:title="@string/help" />
+
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:title="@string/Share" />
+
+
+            />
+        </menu>
+
+    </item>
+
+</menu>

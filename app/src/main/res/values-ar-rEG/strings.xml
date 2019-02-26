@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"
+        formatted="true">جدولك</string>
+    <string name="NoTasks">لا يوجد مهام</string>
+    <string name="NoTables">لا يوجد جداول</string>
+    <string name="ok">موافق</string>
+    <string name="Student">طالب</string>
+    <string name="MyTables">جداولي</string>
+    <string name="selectTextView">حدد أى إختيار</string>
+    <string name="Create_Task"> إنشاء مهمه</string>
+
+    <string name="InternetCourse">"كورسات اون لاين "</string>
+    <string name="CenterCourse">"مراكز كورسات "</string>
+    <string name="Language">"اللغة "</string>
+    <string name="AboutUs">"إعرف عنا "</string>
+    <string name="Share">"شارك تطبيقنا "</string>
+    <string name="Go">موافق</string>
+    <string name="TableName">"إسم الجدول "</string>
+    <string name="Cancle">"إلغاء "</string>
+    <string name="Build">إنشاء</string>
+
+    <string name="selectContextTitle">حدد إختيارك</string>
+    <string name="Edit">تعديل</string>
+    <string name="Tasks">المهام</string>
+    <string name="Delete">مسح</string>
+
+    <string name="SubjectName">"إسم المادة "</string>
+    <string name="LectererName">"إسم المحاضر "</string>
+    <string name="Place">"المكان "</string>
+    <string name="From">"من "</string>
+    <string name="To">إلي</string>
+    <string name="Save">حفظ</string>
+    <string name="TaskName">"عنوان المهمة "</string>
+    <string name="Description">التفاصيل</string>
+    <string name="TimeDate">"التاريخ والوقت "</string>
+
+    <string name="AddTask">"إضافة مهمة "</string>
+    <string name="hintTaskName">إكتب هنا .....</string>
+    <string name="doneView">تمت</string>
+    <string name="TasksAbdo">المهام</string>
+
+    <string name="Saturday">"السبت "</string>
+    <string name="Sunday">الأحد</string>
+    <string name="Tuesday">الثلاثاء</string>
+    <string name="Wednesday">"الأربعاء"</string>
+    <string name="Thursday">الخميس</string>
+    <string name="Monday">الإثنين</string>
+
+
+    <string name="Comingsoon">قريبا</string>
+    <string name="TableExist"> الجدول متاح</string>
+    <string name="TextEmpety">يوجد حقول فارغة </string>
+    <string name="UpdateData">تم تحديث البيانات بنجاح</string>
+    <string name="UpdateDataFaild">فشل فى تحديث البيانات!</string>
+    <string name="DataCreateSucess">تم إنشاء الداتابيز</string>
+    <string name="TableDeleted">تم مسح الجدول</string>
+    <string name="TableNotDeleted">فشل فى مسح الجدول</string>
+    <string name="Datadonesucess">تم اضافة الداتا</string>
+    <string name="Datafailed">فشل فى اضافه الداتا</string>
+    <string name="Datadeleted">تم مسح البيانات</string>
+    <string name="Datanotdeleted">فشل فى مسح البيانات</string>
+    <string name="Tablecreated">تم انشاء الجدول</string>
+    <string name="Tablenotcreated">فشل فى انشاء الجدول</string>
+    <string name="noTable">الجدول غير موجود</string>
+    <string name="ToExit">اضغط مره اخرى للخروج</string>
+    <string name="selectDandT">اختر الوقت و التاريخ</string>
+
+    <string name="about_gadwalak">
+        جدولك هو تطبيق جداول دراسيه متطور يساعد الطلاب على إتمام مهامهم الدراسية  في وقتها المناسب للحصول على تجربه تعليمية ناجحة وذلك بتوفير المزايا الاتية:\n
+١. إنشاء جدول جديد يضم المحاضرات أو الحصص الخاصة بالمستخدم حيث يعطيه التطبيق إلى ٨ حصص باليوم.\n
+٢. توفير جداول المحاضرات الخاصة بالكليات المتاحة في بيانات التطبيق.\n
+٣. قائمة ببعض الكورسات المتنوعة المتاحة على اليوتيوب.\n
+٤. سيتم توفير حجز كورسات افي السنترات الخارجية في أقرب وقت ممكن.
+    \n© <b>Softizone.</b></string>
+</resources>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context="ShowTables.Cell_Data">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Cell Data"
+        android:textColor="#6A1B9A"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:padding="10dp"/>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:paddingRight="7dp"
+                    android:text="@string/SubjectName"
+                    android:textColor="#989b9d"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic" />
+
+                <EditText
+                    android:id="@+id/S_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#08445e" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:text="@string/LectererName"
+                    android:textColor="#989b9d"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic" />
+
+                <EditText
+                    android:id="@+id/l_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#08445e" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingRight="7dp"
+                    android:text="@string/Place"
+                    android:textColor="#989b9d"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic" />
+
+                <EditText
+                    android:id="@+id/P_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="60dp"
+                    android:textColor="#08445e" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingRight="10dp"
+                    android:text="@string/From"
+                    android:textColor="#989b9d"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic" />
+
+                <EditText
+                    android:id="@+id/f_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="60dp"
+                    android:drawableLeft="@drawable/ic_today_black_24dp"
+                    android:focusable="false"
+                    android:hint=" HH : MM"
+                    android:textColor="#135977"
+                    android:textColorHint="#bfc3c5" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingRight="7dp"
+                    android:text="@string/To"
+                    android:textColor="#989b9d"
+                    android:textSize="15sp"
+                    android:textStyle="bold|italic" />
+
+                <EditText
+                    android:id="@+id/t_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="79dp"
+                    android:drawableLeft="@drawable/ic_today_black_24dp"
+                    android:focusable="false"
+                    android:hint=" HH : MM"
+                    android:textColor="#135977"
+                    android:textColorHint="#bfc3c5" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp">
+
+            <Button
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="15dp"
+                android:id="@+id/cancelbtn"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/cell_shape"
+                android:text="@string/Cancle"
+                android:textColor="#6A1B9A"
+                tools:ignore="InvalidId" />
+
+            <Button
+
+                android:id="@+id/savebtn"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/cell_shape"
+                android:onClick="saveclick"
+                android:text="@string/Save"
+                android:textColor="#6A1B9A"
+                tools:ignore="OnClick" />
+        </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5128215728925284/1925975632">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="TaskNotification.Task_Details">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/TaskName"
+        android:textColor="#FFE0B2"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/taskName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/hintTaskName"
+        android:textColorHint="#55b084b0"
+        android:textColor="#BDBDBD" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/Description"
+        android:textColor="#FFE0B2"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:hint="@string/hintTaskName"
+        android:textColorHint="#55b084b0"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:textColor="#BDBDBD" />
+
+
+    <Button
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#607D8B"
+        android:drawableLeft="@drawable/ic_today_black_24dp"
+        android:padding="10dp"
+        android:text="@string/TimeDate"
+        android:textColor="#FFFFFF" />
+
+
+    <TextView
+        android:id="@+id/show_Datetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="MM:DD:YY  H:M:S"
+        android:textColor="#EEEEEE" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:background="#6A1B9A"
+            android:onClick="returnTaskDetails"
+            android:text="@string/ok"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#6A1B9A"
+            android:onClick="returnBack"
+            android:text="@string/Cancle"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

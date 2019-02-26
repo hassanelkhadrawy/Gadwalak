@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#212121"
+    tools:context="TaskNotification.MainActivity">
+
+    <fragment
+
+        android:name="com.example.hassan.gadwalak.TaskNotification.TaskFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/taskFragment"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/add_task"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/taskFragment"
+            android:text="@string/AddTask"
+            android:background="#6A1B9A"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:onClick="addTask"/>
+
+    </LinearLayout>
+</LinearLayout>

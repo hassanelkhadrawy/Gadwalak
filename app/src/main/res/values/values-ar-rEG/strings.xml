@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ok">موافق</string>
+    <string name="Student">طالب</string>
+    <string name="MyTables">جداولي</string>
+    <string name="InternetCourse">"كورسات اون لاين "</string>
+    <string name="CenterCourse">"مراكز كورسات "</string>
+    <string name="Language">"اللغة "</string>
+    <string name="AboutUs">"إعرف عنا "</string>
+    <string name="Share">"شارك تطبيقنا "</string>
+    <string name="Go">موافق</string>
+    <string name="TableName">"إسم الجدول "</string>
+    <string name="Cancle">"إلغاء "</string>
+    <string name="Build">إنشاء</string>
+    <string name="Edit">تعديل</string>
+    <string name="Tasks">المهام</string>
+    <string name="Delete">مسح</string>
+    <string name="SubjectName">"إسم المادة "</string>
+    <string name="LectererName">"إسم المحاضر "</string>
+    <string name="Place">"المكان "</string>
+    <string name="From">"من "</string>
+    <string name="To">إلي</string>
+    <string name="Save">حفظ</string>
+    <string name="TaskName">"عنوان المهمة "</string>
+    <string name="Description">التفاصيل</string>
+    <string name="TimeDate">"التاريخ والوقت "</string>
+    <string name="AddTask">"إضافة مهمة "</string>
+    <string name="Satarday">"السبت "</string>
+    <string name="Sunday">الأحد</string>
+    <string name="Tuesday">الثلاثاء</string>
+    <string name="Wednesday">"الأربعاء"</string>
+    <string name="Thursday">الخميس</string>
+    <string name="Monday">الإثنين</string>
+</resources>

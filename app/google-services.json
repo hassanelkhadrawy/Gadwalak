@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "9557629618",
+    "firebase_url": "https://gadwalak-28898.firebaseio.com",
+    "project_id": "gadwalak-28898",
+    "storage_bucket": "gadwalak-28898.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9557629618:android:96f5769662d24b9b",
+        "android_client_info": {
+          "package_name": "com.example.hassan.gadwalak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9557629618-g4vr2m5o5q2o6ll1eb0iv3r7k7at5f8i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hassan.gadwalak",
+            "certificate_hash": "804983bbddf6ce012cc32ccda7a7fbff50279784"
+          }
+        },
+        {
+          "client_id": "9557629618-pgt7j7amhfel2941735t09pa0l3hbb30.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoWpP43secOCz6xBPmYljnzq2pAUhgTGE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9557629618-pgt7j7amhfel2941735t09pa0l3hbb30.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-5128215728925284~1360258605"
+    }
+  ],
+  "configuration_version": "1"
+}

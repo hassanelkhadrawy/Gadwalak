@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name" formatted="true">Gadwalak</string>
+    <string-array name="faculties">
+        <item>FCI</item>
+        <item>FC</item>
+    </string-array>
+    <string name="todo">TODO</string>
+    <string name="about_gadwalak"><b> Gadwalak </b>It’s a study schedule that help students complete their assignments in a timely manner to obtain a successful educational experience by providing the following advantages:
+\n 1. Create a new table that includes lectures or user-specific sessions where the application gives it 8 sessions per day.
+\n 2. Provide lecture schedules for the colleges available in the application data.
+\n 3. Notification for tasks or sheets that is needed to be delivered.
+\n 4. List of various courses available on YouTube.
+\n 5. Send the provision of booking courses in external centers as soon as possible.\n© <b>Softizone.</b></string>
+    <string name="contact_us">Contact us.</string>
+    <string name="Create_Task">Create Task</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="usertables">My Tables</string>
+    <string name="done_item">done</string>
+
+    <string name="undo_item">undo</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="NoTasks">No Tasks Available</string>
+    <string name="NoTables">No Tables Available</string>
+    <string name="Comingsoon">Coming Soon!</string>
+    <string name="TableExist"> Table Exist</string>
+    <string name="TextEmpety">EditText fields are Empty !</string>
+    <string name="UpdateData">Update data is Done successfully.</string>
+    <string name="UpdateDataFaild">Update data is Failed!</string>
+    <string name="DataCreateSucess">DataBase is Created Successfully.</string>
+    <string name="TableDeleted">Table Deleted Successfully</string>
+    <string name="TableNotDeleted">Unable to delete table!</string>
+    <string name="Datadonesucess">Adding data is Done Successfully.</string>
+    <string name="Datafailed">Adding data is failed!</string>
+    <string name="Datadeleted">Data deleted successfully.</string>
+    <string name="Datanotdeleted">Can not delete.</string>
+    <string name="Tablecreated">Table Created.</string>
+    <string name="Tablenotcreated">Faild to create table.</string>
+    <string name="noTable">Table not exist.</string>
+    <string name="ToExit">Please click BACK again to Exit.</string>
+    <string name="selectDandT">Please select date and time!</string>
+
+
+    <string name="ok">OK</string>
+    <string name="Student">Student</string>
+    <string name="MyTables">My Tables</string>
+    <string name="selectTextView">Select any option</string>
+
+    <string name="InternetCourse">Internet Course</string>
+    <string name="CenterCourse">Center Course</string>
+    <string name="Language">Language</string>
+    <string name="AboutUs">About Us</string>
+    <string name="Share">Share App</string>
+    <string name="Go">Go</string>
+    <string name="TableName">Table Name</string>
+    <string name="Cancle">Cancle</string>
+    <string name="Build">Build</string>
+
+    <string name="selectContextTitle">Select The Action</string>
+    <string name="Edit">Edit</string>
+    <string name="Tasks">Tasks</string>
+    <string name="Delete">Delete</string>
+    <string name="SubjectName">Subject Name</string>
+    <string name="LectererName">Lecterer Name</string>
+    <string name="Place">Place</string>
+    <string name="From">From</string>
+    <string name="To">To</string>
+    <string name="Save">Save</string>
+    <string name="TaskName">Task Name</string>
+    <string name="Description">Description</string>
+    <string name="TimeDate">TIME AND DATE</string>
+
+    <string name="AddTask">Add Task</string>
+    <string name="hintTaskName">Type here .....</string>
+    <string name="doneView">DONE</string>
+    <string name="TasksAbdo">TASKS</string>
+
+
+    <string name="Saturday">Saturday</string>
+    <string name="Sunday">Sunday</string>
+    <string name="Monday">Monday</string>
+    <string name="Tuesday">Tuesday</string>
+    <string name="Wednesday">Wednesday</string>
+    <string name="Thursday">Thursday</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="help">Help!</string>
+    <string name="AlarmTasksetfor">Alarm Task set for</string>
+    <string name="hours">hours ,</string>
+    <string name="minutes">minutes ,</string>
+    <string name="Receivealarm">Receive alarm, Ok!</string>
+    <string name="widget_updated">widget updated</string>
+    <string name="selectuniversity">select university</string>
+    <string name="university">university</string>
+    <string name="p_s_u">please,select your university</string>
+    <string name="p_s_f">please,select your faculty</string>
+    <string name="p_s_y">please,select your year</string>
+    <string name="p_s_d">please,select your deparment</string>
+    <string name="p_s_s">please,select your section</string>
+    <string name="p_c_i">Please, Check Internet Connection and Refresh </string>
+
+
+
+
+</resources>
